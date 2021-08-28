@@ -1,4 +1,4 @@
-package CoreJavaPrograms.PractisePrograms.source.arraysandStrings;
+package coreJavaPrograms.PractisePrograms.source.lab5;
 public class TestMath
 {
     public static void main(String[] args)

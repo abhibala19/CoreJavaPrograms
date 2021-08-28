@@ -1,4 +1,4 @@
-package CoreJavaPrograms.PractisePrograms.source.exprblm;
+package coreJavaPrograms.PractisePrograms.source.lab5;
 
 public class UniqueArray {
 	public static void main(String[] args) {
@@ -47,7 +47,6 @@ public class UniqueArray {
 				unique[count1] = x[i];
 				count1++;
 			}
-
 		}
 		int[] arr = new int[count1];
 		for (int i = 0; i < arr.length; i++) {
