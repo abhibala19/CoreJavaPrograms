@@ -14,6 +14,7 @@ public class Animal {
     {
         return name;
     }
+    
     public void eat()
     {
         System.out.println("i am animal "+name +" eating ");
