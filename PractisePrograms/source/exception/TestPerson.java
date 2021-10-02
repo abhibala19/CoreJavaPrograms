@@ -13,5 +13,11 @@ public static void main(String[] args) {
 		System.out.println(e.getMessage());
 		e.printStackTrace();
 	}
+	catch(Exception e)
+	{
+		e.printStackTrace();
+		e.getMessage();
+		
+	}
 }
 }

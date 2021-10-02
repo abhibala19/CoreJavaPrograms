@@ -9,7 +9,6 @@ public A() {
 }
 public A(int n)
 {
-	this.p = 0;
 	p=n;
 }
 }

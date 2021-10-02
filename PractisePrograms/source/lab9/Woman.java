@@ -10,7 +10,7 @@ public Woman(String n)
 public String getName() {
 	return name;
 }
-public  setName(String name) {
+public void setName(String name) {
 	this.name = name;
 }
 public void marry(Man m)
@@ -24,5 +24,9 @@ public void divorse(Man m)
 {
 	m.wife=null;
 	husband=null;
+}
+public void work()
+{
+	System.out.println(" i am "+name+"working a whole day");
 }
 }

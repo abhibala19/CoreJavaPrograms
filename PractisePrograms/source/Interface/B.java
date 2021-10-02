@@ -1,7 +1,7 @@
 package Interface;
 
 public class B {
- static String name="B";
+  static String name="B";
 public B(String s)
 {
 	System.out.println("in class b para contsr");
@@ -22,7 +22,7 @@ class C extends B
 	public C(String  s)
 	{
 		super(s);
-		name=s;
+		
 		System.out.println("in class c para contsr");
 
 	}

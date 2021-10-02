@@ -8,7 +8,6 @@ public static void main(String[] args) {
 	System.out.println("obj2 points to the obj "+ obj2.name);
 	obj1.print();
 	obj2.print();
-	B.print();
 	C.print();
 }
 }

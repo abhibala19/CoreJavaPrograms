@@ -26,7 +26,6 @@ class ArrayStack implements Stack {
 			
 			return a[--count];
 		}
-		
 		return 0;
 		
 	}

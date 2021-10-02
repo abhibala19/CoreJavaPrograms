@@ -1,8 +1,8 @@
 package Interface;
 
 public final class ImmutablePerson {
- int age;
- String name;
+final int age;
+  final String name;
 public ImmutablePerson(int age,String name)
 {
 	this.age=age;

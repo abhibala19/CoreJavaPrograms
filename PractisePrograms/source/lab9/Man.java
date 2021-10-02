@@ -3,9 +3,11 @@ package lab9;
 public class Man {
 
 	private String name;
-	private Woman wife;
+	 Woman wife;
 
- public void setName1(String name)
+
+	
+public void setName1(String name)
  {	if (name == null || name.trim().equals("")) {
 		throw new IllegalArgumentException("give proper name to the man");
 	} else
@@ -18,6 +20,10 @@ public class Man {
  }
 	public Man(String s) {
 		name = s;
+	}
+	public void eat()
+	{
+		System.out.println("i am "+name+"eating food");
 	}
 
 	public void marry(Woman w) {
