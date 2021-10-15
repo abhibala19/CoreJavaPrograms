@@ -18,15 +18,12 @@ System.out.println(s1);
 			throw new IllegalArgumentException("give valid String ");
 		String[] a=s.split(" ");
 		ArrayList a1=new ArrayList();
-		TreeSet t=new TreeSet();
 		for(String d:a)
 		{
 			a1.add(d);
-			t.add(d);
 		}
 		Collections.sort(a1);
 //		System.out.println(a1);
-//		System.out.println(t);
 		ArrayList<String> a2=new ArrayList<String>();
 		for(String r:a)
 		{

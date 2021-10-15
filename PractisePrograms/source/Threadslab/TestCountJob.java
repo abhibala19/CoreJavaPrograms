@@ -8,7 +8,8 @@ public static void main(String[] args) {
 		CountJob job1=new CountJob(c);
 		Thread t1=new Thread(job1);
 		Thread t2=new Thread(job1);
-	
+		Thread t3=new Thread(job1);
+	t3.start();
 		t1.start();
 		t2.start();
 	}

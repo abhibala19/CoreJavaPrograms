@@ -9,8 +9,7 @@ public CountJob(Counter counter)
 	else
 		this.counter=counter;
 }
-	@Override
-	public void run() {
+	public   void run() {
 		// TODO Auto-generated method stub
 int n=counter.inc_count();
 System.out.println(Thread.currentThread().getName()+" the count is "+n);

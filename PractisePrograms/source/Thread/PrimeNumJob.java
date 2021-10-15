@@ -13,7 +13,7 @@ public PrimeNumJob(int n) {
 	public void run() {
 		// TODO Auto-generated method stub
 	boolean flag=true;
-	outer:while(true)
+	outer:while(flag)
 	{
 	int val=(int)(Math.random()*range);
 	if(val%2==0)

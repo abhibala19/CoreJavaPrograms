@@ -67,14 +67,14 @@ public class GetMiddileElement {
 		{
 			System.out.println(stack.pop());
 		}
-	}
-}
+	}}
+
 //		public static void printRecursively(SinglyLinkedList a)
 //	{
 //		Node temp=a.head;
 //		if(temp==null)
 //			return;
-//			printRecursively(temp.next);
+//			return printRecursively(temp.next);
 //			System.out.println(temp.getData());
-//		
-//		
+		
+		
